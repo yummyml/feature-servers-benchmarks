@@ -84,4 +84,22 @@ RPS: from 10 to 100 (step 10)
 Unlike benchmark presented on [Feast blog](https://feast.dev/blog/feast-benchmarks/)
 I have used single or 5 instance of the feature server thus results vary (on blog 16 instances on c5.4xlarge, 16 vCPU were used).
 
+For the single instance (p99 latency, timeout 5s) for:
+Entities: 1
+Features: 50
+Concurrency: 5
+RPS: from 10 to 100 (step 10)
+
+| RPS | Feast serve | Yummy serve |
+|:---:|:-----------:|:-----------:|
+| 10  |  95 ms      |  1.5 ms     |
+| 20  |  timout     |  1.5 ms     |
+| 30  |  timeout    |  3.8 ms     |
+| 40  |  timeout    |  3.9 ms     |
+| 50  |  timeout    |  3.4 ms     |
+| 60  |  timeout    |  1.5 ms     |
+| 70  |  timeout    |  1.7 ms     |
+| 80  |  timeout    |  1.4 ms     |
+| 90  |  timeout    |  1.4 ms     |
+| 100 |  timeout    |  1.3 ms     |
 
