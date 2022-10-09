@@ -49,31 +49,31 @@ RPS: 10
 
 #### Change only number of requests
 
-##### 1
+* 1
 Entities: 1
 Features: 50
 Concurrency: 5
 RPS: from 10 to 100 (step 10)
 
-##### 2
+* 2
 Entities: 1
 Features: 50
 Concurrency: 5
 RPS: from 100 to 1000 (step 100)
 
-##### 3
+* 3
 Entities: 1
 Features: 250
 Concurrency: 5
 RPS: from 10 to 100 (step 10)
 
-##### 4
+* 4
 Entities: 100
 Features: 50
 Concurrency: 5
 RPS: from 10 to 100 (step 10)
 
-##### 5
+* 5
 Entities: 100
 Features: 50
 Concurrency: 5
@@ -83,6 +83,5 @@ RPS: from 10 to 100 (step 10)
 
 Unlike benchmark presented on [Feast blog](https://feast.dev/blog/feast-benchmarks/)
 I have used single or 5 instance of the feature server thus results vary (on blog 16 instances on c5.4xlarge, 16 vCPU were used).
-
 
 
