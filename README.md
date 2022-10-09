@@ -82,7 +82,7 @@ RPS: from 10 to 100 (step 10)
 ### Results
 
 Unlike benchmark presented on [Feast blog](https://feast.dev/blog/feast-benchmarks/)
-I have used single or 5 instance of the feature server thus results vary (on blog 16 instances on c5.4xlarge, 16 vCPU were used).
+I have used single or 5 instance of the feature server (on my laptop) thus results vary (on blog 16 instances on c5.4xlarge, 16 vCPU were used).
 
 For the single instance (p99 latency, timeout 5s) for:
 Entities: 1
