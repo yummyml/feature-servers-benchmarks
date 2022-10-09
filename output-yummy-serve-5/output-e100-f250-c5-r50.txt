@@ -1,0 +1,11 @@
+Requests      [total, rate, throughput]         3000, 50.02, 49.37
+Duration      [total, attack, wait]             1m1s, 59.98s, 727.875ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.408ms, 731.216ms, 578.3ms, 1.427s, 1.591s, 2.203s, 4.398s
+Bytes In      [total, mean]                     2823732165, 941244.06
+Bytes Out     [total, mean]                     1963523, 654.51
+Success       [ratio]                           99.90%
+Status Codes  [code:count]                      0:2  200:2997  408:1  
+Error Set:
+Post "http://yummy-serve-4:6566/get-online-features": read tcp 172.18.0.11:47005->172.18.0.9:6566: read: connection reset by peer
+408 Request Timeout
+Post "http://yummy-serve-2:6566/get-online-features": read tcp 172.18.0.11:36933->172.18.0.7:6566: read: connection reset by peer
