@@ -103,3 +103,23 @@ RPS: from 10 to 100 (step 10)
 | 90  |  timeout    |  1.4 ms     |
 | 100 |  timeout    |  1.3 ms     |
 
+
+For the 5 instances (p99 latency, timeout 5s) for:
+Entities: 1
+Features: 50
+Concurrency: 5
+RPS: from 10 to 100 (step 10)
+
+| RPS | Feast serve | Yummy serve |
+|:---:|:-----------:|:-----------:|
+| 10  |  83 ms      |  4.2 ms     |
+| 20  |  93 ms      |  4.0 ms     |
+| 30  |  91 ms      |  4.1 ms     |
+| 40  |  105 ms     |  4.0 ms     |
+| 50  |  timeout    |  3.9 ms     |
+| 60  |  timeout    |  3.8 ms     |
+| 70  |  timeout    |  3.5 ms     |
+| 80  |  timeout    |  3.4 ms     |
+| 90  |  timeout    |  3.6 ms     |
+| 100 |  timeout    |  1.9 ms     |
+
