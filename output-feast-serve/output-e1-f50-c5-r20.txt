@@ -1,10 +1,9 @@
-Requests      [total, rate, throughput]         1200, 20.02, 13.33
-Duration      [total, attack, wait]             1m4s, 59.95s, 3.666s
-Latencies     [min, mean, 50, 90, 95, 99, max]  4.282ms, 3.538s, 3.15s, 5s, 5s, 5s, 5s
-Bytes In      [total, mean]                     4260763, 3550.64
-Bytes Out     [total, mean]                     60969, 50.81
-Success       [ratio]                           70.67%
-Status Codes  [code:count]                      0:352  200:848  
+Requests      [total, rate, throughput]         1200, 20.02, 13.54
+Duration      [total, attack, wait]             1m4s, 59.95s, 3.699s
+Latencies     [min, mean, 50, 90, 95, 99, max]  85.544ms, 3.452s, 3.065s, 5s, 5s, 5s, 5s
+Bytes In      [total, mean]                     4330992, 3609.16
+Bytes Out     [total, mean]                     61954, 51.63
+Success       [ratio]                           71.83%
+Status Codes  [code:count]                      0:338  200:862  
 Error Set:
-Post "http://feast-serve-0:6566/get-online-features": dial tcp 0.0.0.0:0->172.18.0.5:6566: connect: connection refused
 Post "http://feast-serve-0:6566/get-online-features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)

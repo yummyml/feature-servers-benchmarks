@@ -1,0 +1,24 @@
+services:
+  redis:
+    image: redis:7.0.5
+    ports:
+     - "6379:6379"
+  materialize:
+    image: feature-servers-benchmarks/feast-serve
+    depends_on:
+      - redis
+    build:
+      context: ../..
+      dockerfile: docker/docker/feast-serve/Dockerfile
+    command: ./materialize.sh  
+  feast:
+    build:
+      context: ../..
+      dockerfile: docker/redis/Dockerfile
+    ports:
+      - "6566-6581:6566"
+    deploy:
+      replicas: 16
+    links:
+      - redis
+
