@@ -92,7 +92,7 @@ RPS: from 10 to 100 (step 10)
 
 | RPS | Feast serve | Yummy serve |
 |:---:|:-----------:|:-----------:|
-| 10  |  95 ms      |  3.88 ms    |
+| 10  |  92 ms      |  3.88 ms    |
 | 20  |  timout     |  3.77 ms    |
 | 30  |  timeout    |  3.74 ms    |
 | 40  |  timeout    |  3.68 ms    |
