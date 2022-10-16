@@ -92,16 +92,16 @@ RPS: from 10 to 100 (step 10)
 
 | RPS | Feast serve | Yummy serve |
 |:---:|:-----------:|:-----------:|
-| 10  |  95 ms      |  1.5 ms     |
-| 20  |  timout     |  1.5 ms     |
-| 30  |  timeout    |  3.8 ms     |
-| 40  |  timeout    |  3.9 ms     |
-| 50  |  timeout    |  3.4 ms     |
-| 60  |  timeout    |  1.5 ms     |
-| 70  |  timeout    |  1.7 ms     |
-| 80  |  timeout    |  1.4 ms     |
-| 90  |  timeout    |  1.4 ms     |
-| 100 |  timeout    |  1.3 ms     |
+| 10  |  95 ms      |  3.88 ms    |
+| 20  |  timout     |  3.77 ms    |
+| 30  |  timeout    |  3.74 ms    |
+| 40  |  timeout    |  3.68 ms    |
+| 50  |  timeout    |  3.60 ms    |
+| 60  |  timeout    |  3.62 ms    |
+| 70  |  timeout    |  3.56 ms    |
+| 80  |  timeout    |  3.47 ms    |
+| 90  |  timeout    |  3.25 ms    |
+| 100 |  timeout    |  3.37 ms    |
 
 
 For the 5 instances (p99 latency, timeout 5s) for:
