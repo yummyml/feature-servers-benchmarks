@@ -1,0 +1,9 @@
+Requests      [total, rate, throughput]         3600, 60.02, 11.54
+Duration      [total, attack, wait]             1m5s, 59.983s, 4.642s
+Latencies     [min, mean, 50, 90, 95, 99, max]  2.381s, 4.655s, 5s, 5s, 5s, 5s, 5.001s
+Bytes In      [total, mean]                     3748152, 1041.15
+Bytes Out     [total, mean]                     53617, 14.89
+Success       [ratio]                           20.72%
+Status Codes  [code:count]                      0:2854  200:746  
+Error Set:
+Post "http://feast-serve-0:6566/get-online-features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
